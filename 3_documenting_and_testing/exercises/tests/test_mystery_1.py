@@ -1,10 +1,10 @@
 import unittest
 
-from ..mystery_1 import mystery_1
+from ..add import add
 
 class TestMystery1(unittest.TestCase):
     """ """
 
     def test_minimal_input(self):
         """"""
-        self.assertEqual(mystery_1(0, 0), 0)
+        self.assertEqual(add(0, 0), 0)
